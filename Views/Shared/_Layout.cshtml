@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/askfm.styles.css" asp-append-version="true" />
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Toastify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </head>
 <body>
     <header>
@@ -26,6 +30,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
+                    <form class="d-flex me-3" asp-controller="Home" asp-action="Search" method="get">
+                        <input class="form-control me-2" type="search" name="query" placeholder="Search people" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+
                     <partial name="_LoginPartial" />
                 </div>
             </div>
@@ -45,6 +54,17 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        Toastify({
+            text: "¡Operación exitosa!",
+            duration: 3000,
+            close: true,
+            gravity: "top", // "top" o "bottom"
+            position: "right", // "left", "center" o "right"
+            backgroundColor: "#4CAF50",
+            stopOnFocus: true
+        }).showToast();
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

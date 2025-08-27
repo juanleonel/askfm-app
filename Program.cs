@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using askfm.Data;
+using askfm.Interfaces;
+using askfm.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,10 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews()
     .AddRazorRuntimeCompilation();
+
+// services
+builder.Services.AddScoped<IComment, CommentService>();
+builder.Services.AddScoped<IUser, UserService>();
 
 var app = builder.Build();
 

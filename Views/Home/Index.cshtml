@@ -1,8 +1,56 @@
-﻿@{
+﻿@model IEnumerable<CommentModel>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col">
+                <h2 class="text-primary">New questions</h2>
+            </div>
+            <div class="col text-end">
+                <a href="/Comentarios/Nuevo" class="btn btn-success">
+                    ➕ Add question
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model is null)
+            {
+                <p>No questions</p>
+            } else
+            {
+                @foreach (var comment in Model)
+                {
+                    if (!comment.IsActive) { continue; }
+
+                    <div class="col-md-6 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    @if (comment.IsAnonymous)
+                                    {
+                                        <span>👤 Anónimo</span>
+                                    }
+                                    else
+                                    {
+                                        <span>👤 @comment.FromUserId</span>
+                                    }
+                                </h5>
+                                <p class="card-text">@comment.Content</p>
+                                <p class="card-text text-muted">
+                                    🕒 @comment.CreatedAt.ToString("dd MMM yyyy HH:mm")
+                                </p>
+                                <a href="/Comentarios/Detalle/@comment.Id" class="btn btn-outline-primary btn-sm">Ver detalle</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                
+            }
+        </div>
+    </div>
+
 </div>
