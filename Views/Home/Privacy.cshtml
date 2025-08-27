@@ -3,4 +3,13 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Content" class="control-label"></label>
+        <textarea name="Content" id="Content" class="form-control" rows="5"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Comment</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
