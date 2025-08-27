@@ -9,4 +9,9 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         : base(options)
     {
     }
+
+    public DbSet<Comment> Comments { get; set; }
+    public DbSet<Answer> Answers { get; set; }
+    public DbSet<Follower> Followers { get; set; }
+    public DbSet<Following> Followings { get; set; }
 }

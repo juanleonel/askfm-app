@@ -7,6 +7,7 @@ namespace askfm.Data
         public string? LastName { get; set; }
         public string? Location { get; set; }
         public string? Image { get; set; }
+        public ICollection<Comment> Comments { get; set; }
     }
 }
 
