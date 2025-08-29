@@ -32,7 +32,7 @@ else
                     </div>
 
                     <div class="text-end">
-                        <a asp-controller="Preguntas" asp-action="Crear" asp-route-userId="@item.Id" class="btn btn-primary me-2">Ask</a>
+                        <a asp-controller="Profile" asp-action="Index" asp-route-userId="@item.Id" class="btn btn-primary me-2">Ask</a>
                         <form asp-controller="Usuarios" asp-action="Seguir" asp-route-id="@item.Id" method="post" class="d-inline">
                             <button type="submit" class="btn btn-outline-success">Follow</button>
                         </form>

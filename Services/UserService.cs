@@ -26,9 +26,11 @@ namespace askfm.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserModel> GetById(string Id)
+        public async Task<UserModel> GetById(string Id)
         {
-            throw new NotImplementedException();
+            var Result = await _context.Users.FindAsync(Id);
+
+            return this.Mapper.ToModel(Result);
         }
 
         public async Task<IEnumerable<UserModel>> GetUsers(string Query)

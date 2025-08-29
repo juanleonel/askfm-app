@@ -22,6 +22,8 @@ namespace askfm.Services
             Entity.CreatedAt = DateTime.Now;
             Entity.Content = Comment.Content;
             Entity.IsAnonymous = Comment.IsAnonymous;
+            Entity.FromUserId = Comment.FromUserId;
+            Entity.UserId = Comment.UserId;
             Entity.IsActive = true;
             await _context.Comments.AddAsync(Entity);
             await _context.SaveChangesAsync();

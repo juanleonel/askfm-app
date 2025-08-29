@@ -9,5 +9,6 @@
         public string Location { get; set; }
         public string Image { get; set; }
         public bool IsActive { get; set; }
+        public IList<CommentModel> Comments { get; set; }
     }
 }

@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\dotnet\\askfm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\utils\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:utils\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\utils\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:utils\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\interfaces\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:interfaces\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|c:\\dotnet\\askfm\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60AC6D37-7707-4153-A69A-869CAB7B9DBB}|askfm.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,56 +25,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1717,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 1563,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentMapper.cs",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Utils\\CommentMapper.cs",
-              "RelativeDocumentMoniker": "Utils\\CommentMapper.cs",
-              "ToolTip": "C:\\dotnet\\askfm\\Utils\\CommentMapper.cs",
-              "RelativeToolTip": "Utils\\CommentMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:52:38.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Utils\\UserMapper.cs",
-              "RelativeDocumentMoniker": "Utils\\UserMapper.cs",
-              "ToolTip": "C:\\dotnet\\askfm\\Utils\\UserMapper.cs",
-              "RelativeToolTip": "Utils\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:50:34.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Views\\Home\\Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Search.cshtml",
-              "ToolTip": "C:\\dotnet\\askfm\\Views\\Home\\Search.cshtml",
-              "RelativeToolTip": "Views\\Home\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T05:30:16.629Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -103,80 +36,54 @@
               "RelativeDocumentMoniker": "Services\\CommentService.cs",
               "ToolTip": "C:\\dotnet\\askfm\\Services\\CommentService.cs",
               "RelativeToolTip": "Services\\CommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:24:36.797Z",
+              "WhenOpened": "2025-08-29T03:31:07.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dotnet\\askfm\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\dotnet\\askfm\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswG0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T02:39:31.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\dotnet\\askfm\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\dotnet\\askfm\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\dotnet\\askfm\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:23:31.294Z",
+              "WhenOpened": "2025-08-29T02:31:04.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IComment.cs",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Interfaces\\IComment.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IComment.cs",
-              "ToolTip": "C:\\dotnet\\askfm\\Interfaces\\IComment.cs",
-              "RelativeToolTip": "Interfaces\\IComment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T04:17:01.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\dotnet\\askfm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T04:13:17.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\dotnet\\askfm\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\dotnet\\askfm\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-27T04:09:49.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\dotnet\\askfm\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\dotnet\\askfm\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T04:07:50.837Z",
+              "WhenOpened": "2025-08-28T04:37:30.48Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 383,
+          "DockedWidth": 1650,
           "SelectedChildIndex": -1,
           "Children": [
             {
